@@ -166,14 +166,24 @@ Caso tenha alguma ideia de melhoria, fique à vontade para abrir uma **Issue** o
 
 ---
 
-## 👨‍💻 Desenvolvedor
+## 👨‍💻 Desenvolvedores
 
 **Lukas Santos de Sousa**
 
-Desenvolvedor Full Stack
+ - Desenvolvedor Full Stack
 
-GitHub:
-https://github.com/lukasousarj021
+     GitHub:
+     https://github.com/lukasousarj021
+
+
+
+**Alan da silva ferreira**
+
+-  Desenvolvedor Full Stack
+
+    GitHub:
+    https://github.com/Alansnider
+
 
 ---
 
