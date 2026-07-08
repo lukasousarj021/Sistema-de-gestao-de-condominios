@@ -1,0 +1,27 @@
+# Dependências
+node_modules/
+
+# Variáveis de ambiente
+.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Arquivos temporários
+tmp/
+temp/
+
+# Cache
+.cache/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Configurações do VS Code (opcional)
+.vscode/
+
+# Cobertura de testes
+coverage/

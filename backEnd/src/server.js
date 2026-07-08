@@ -1,19 +1,15 @@
-console.log("Hello World");
-const express = require("express");
-const app = express();
-const port = 3000;
+const pool = require("./config/database");
 
-app.get("/", (req, res) => {
-  res.send("Hello World!");
-});
+async function testar() {
+  try {
+    const res = await pool.query("SELECT NOW()");
+    console.log("Conectado!");
+    console.log(res.rows[0]);
+  } catch (erro) {
+    console.error(erro);
+  } finally {
+    pool.end();
+  }
+}
 
-app.post("/email", (req, res) => {
-  // Lógica para enviar o e-mail
-  res.send("E-mail enviado com sucesso!");
-});
-
-app.listen(port, () => {
-  console.log(`Server is running on http://localhost:${port}`);
-});
-
-
+testar();
